@@ -1,0 +1,175 @@
+/* 
+--Color variables
+*/
+/*
+--Initialize default CSS values.
+*/
+html, body {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+}
+
+a:link {
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:visited {
+  color: inherit;
+  text-decoration: none;
+  cursor: auto;
+}
+
+a:link:active {
+  color: inherit;
+}
+
+a:visited:active {
+  color: inherit;
+}
+
+address {
+  font-style: normal;
+}
+
+blockquote {
+  margin: 0;
+}
+
+caption {
+  text-align: left;
+}
+
+cite {
+  font-style: normal;
+}
+
+dd {
+  margin: 0;
+}
+
+dfn {
+  font-style: normal;
+}
+
+dl {
+  margin: 0;
+}
+
+em {
+  font-style: normal;
+}
+
+fieldset {
+  padding: 0;
+  margin: 0;
+}
+
+figure {
+  margin: 0;
+}
+
+form {
+  margin: 0;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 1.75rem;
+  margin: 0;
+  font-weight: normal;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin: 0;
+  font-weight: normal;
+}
+
+h4 {
+  font-size: 1.25rem;
+  margin: 0;
+  font-weight: normal;
+}
+
+h5 {
+  font-size: 1rem;
+  margin: 0;
+  font-weight: normal;
+}
+
+h6 {
+  font-size: .75rem;
+  margin: 0;
+  font-weight: normal;
+}
+
+legend {
+  padding: 0;
+}
+
+mark {
+  color: #1e272e;
+  background-color: #ffd32a;
+}
+
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+}
+
+pre {
+  margin: 0;
+}
+
+table {
+  border-color: #485460;
+  border-spacing: 0;
+}
+
+th {
+  font-weight: normal;
+  text-align: left;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+var {
+  font-style: normal;
+}
+
+/*
+-- Prototype build 
+*/
+/*
+-- Shun v?=0.01
+-- Copyright 2021-2022 | Author: yadibolt 
+-- Licensed under MIT |  https://github.com/yadibolt/shun
+*/
+:root {
+  --red__color: #ff3f34;
+  --blue__color: #3c40c6;
+  --aqua__color: #0fbcf9;
+  --jade__color: #00d8d6;
+  --green__color: #0be881;
+  --pink__color: #ef5777;
+  --yellow__color: #ffd32a;
+  --orange__color: #ffc048;
+  --gray__color: #485460;
+  --black__color: #1e272e;
+}
+/*# sourceMappingURL=shun.min.css.map */
