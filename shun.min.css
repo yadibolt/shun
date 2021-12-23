@@ -1,9 +1,25 @@
-/* 
---Color variables
+/*
+-- Prototype build 
 */
 /*
---Initialize default CSS values.
+-- Shun v?=0.01
+-- Copyright 2021-2022 | Author: yadibolt 
+-- Licensed under MIT |  https://github.com/yadibolt/shun
 */
+:root {
+  --red: #ff3f34;
+  --blue: #3c40c6;
+  --aqua: #0fbcf9;
+  --jade: #00d8d6;
+  --green: #0be881;
+  --pink: #ef5777;
+  --yellow: #ffd32a;
+  --orange: #ffc048;
+  --gray: #485460;
+  --black: #1e272e;
+  scroll-behavior: smooth;
+}
+
 html, body {
   margin: 0;
   padding: 0;
@@ -152,24 +168,125 @@ var {
   font-style: normal;
 }
 
-/*
--- Prototype build 
-*/
-/*
--- Shun v?=0.01
--- Copyright 2021-2022 | Author: yadibolt 
--- Licensed under MIT |  https://github.com/yadibolt/shun
-*/
-:root {
-  --red__color: #ff3f34;
-  --blue__color: #3c40c6;
-  --aqua__color: #0fbcf9;
-  --jade__color: #00d8d6;
-  --green__color: #0be881;
-  --pink__color: #ef5777;
-  --yellow__color: #ffd32a;
-  --orange__color: #ffc048;
-  --gray__color: #485460;
-  --black__color: #1e272e;
+/* Undone */
+.storer {
+  width: 100%;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.wrapper * {
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
+}
+
+.col {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  width: 25%;
+}
+
+/* Undone */
+.flex {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+.justify-start {
+  -webkit-box-pack: start !important;
+      -ms-flex-pack: start !important;
+          justify-content: flex-start !important;
+}
+
+.justify-end {
+  -webkit-box-pack: end !important;
+      -ms-flex-pack: end !important;
+          justify-content: flex-end !important;
+}
+
+.justify-center {
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+}
+
+.justify-between {
+  -webkit-box-pack: justify !important;
+      -ms-flex-pack: justify !important;
+          justify-content: space-between !important;
+}
+
+.justify-around {
+  -ms-flex-pack: distribute !important;
+      justify-content: space-around !important;
+}
+
+.align-start {
+  -webkit-box-align: start !important;
+      -ms-flex-align: start !important;
+          align-items: flex-start !important;
+}
+
+.align-end {
+  -webkit-box-align: end !important;
+      -ms-flex-align: end !important;
+          align-items: flex-end !important;
+}
+
+.align-center {
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+}
+
+.align-stretch {
+  -webkit-box-align: stretch !important;
+      -ms-flex-align: stretch !important;
+          align-items: stretch !important;
+}
+
+.self-start {
+  -ms-flex-item-align: start !important;
+      align-self: flex-start !important;
+}
+
+.self-end {
+  -ms-flex-item-align: end !important;
+      align-self: flex-end !important;
+}
+
+.self-center {
+  -ms-flex-item-align: center !important;
+      -ms-grid-row-align: center !important;
+      align-self: center !important;
+}
+
+.content-start {
+  -ms-flex-line-pack: start !important;
+      align-content: flex-start !important;
+}
+
+.content-end {
+  -ms-flex-line-pack: end !important;
+      align-content: flex-end !important;
+}
+
+.content-center {
+  -ms-flex-line-pack: center !important;
+      align-content: center !important;
+}
+
+.content-between {
+  -ms-flex-line-pack: justify !important;
+      align-content: space-between !important;
 }
 /*# sourceMappingURL=shun.min.css.map */

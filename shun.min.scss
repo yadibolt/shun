@@ -1,10 +1,7 @@
 @charset "UTF-8";
-@import "variables/_colors";
-@import "variables/_initialize";
 /*
 -- Prototype build 
 */
-
 
 /*
 -- Shun v?=0.01
@@ -12,14 +9,19 @@
 -- Licensed under MIT |  https://github.com/yadibolt/shun
 */
 :root {
-    --red__color: #ff3f34;
-    --blue__color: #3c40c6;
-    --aqua__color: #0fbcf9;
-    --jade__color: #00d8d6;
-    --green__color: #0be881;
-    --pink__color: #ef5777;
-    --yellow__color: #ffd32a;
-    --orange__color: #ffc048;
-    --gray__color: #485460;
-    --black__color: #1e272e;
+    --red: #ff3f34;
+    --blue: #3c40c6;
+    --aqua: #0fbcf9;
+    --jade: #00d8d6;
+    --green: #0be881;
+    --pink: #ef5777;
+    --yellow: #ffd32a;
+    --orange: #ffc048;
+    --gray: #485460;
+    --black: #1e272e;
+    scroll-behavior: smooth;
 }
+@import "variables/_initialize";
+@import "variables/_layout";
+
+
