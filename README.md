@@ -107,4 +107,27 @@ Others:
 </div>
 ```
 
+## Spacing
+```
+.m{direction}-{spacing-number} - usage of margin classes based on breakpoints
+.p{direction}-{spacing-number} - usage of padding classes based on breakpoints
+
+{direction} = t, b, s, e
+{spacing-number} = from 0 to 5
+*t = top
+*b = bottom
+*s = start
+*e = end
+```
+**Example**
+```html
+<div class="storer">
+  <div class="flex wrapper mt-5 py-3">
+    <div class="flex col-24 px-5 me-5">
+      <p>FLEX COL 24 on XS & FLEX COL 12 on S</p>
+    </div>
+  </div>
+</div>
+```
+
 https://flatuicolors.com/palette/se
