@@ -38,7 +38,7 @@
 
 ## Breakpoints
 ```
-.col-{prefix}-{number_of_columns} - usage of columns with breakpoints
+.col-{prefix}-{number_of_columns} | usage of columns with breakpoints
 ```
 - from **195px** to **320px** | XS | prefix = xs
 - from **321px** to **576px** | S | prefix = s
@@ -61,7 +61,7 @@
 
 ## Alignment of elements
 ```
-.{prefix}-{aligment} - usage of alignment classes
+.{prefix}-{aligment} | usage of alignment classes
 ```
 Others:
 - Justify Content, prefix **j** | Alignments: start, end, center, between, around
@@ -88,7 +88,7 @@ Others:
 
 ## Ordering
 ```
-.ord-{breakpoint_prefix}-{order_number} - usage of order classes based on breakpoints
+.ord-{breakpoint_prefix}-{order_number} | usage of order classes based on breakpoints
 ```
 **Example**
 ```html
@@ -109,8 +109,8 @@ Others:
 
 ## Spacing
 ```
-.m{direction}-{spacing-number} - usage of margin classes based on breakpoints
-.p{direction}-{spacing-number} - usage of padding classes based on breakpoints
+.m{direction}-{spacing-number} | usage of margin classes based on breakpoints
+.p{direction}-{spacing-number} | usage of padding classes based on breakpoints
 
 {direction} = t, b, s, e
 {spacing-number} = from 0 to 5
