@@ -130,4 +130,31 @@ Others:
 </div>
 ```
 
+## Other utility classes
+```scss
+.flex {
+    display: flex !important;
+}
+.w-100 {
+    width: 100%;
+}
+.h-100 {
+    height: 100%;
+}
+.vw-100 {
+    width: 100vw;
+}
+.vh-100 {
+    height: 100vh;
+}
+.of-hidden {
+    overflow: hidden;
+}
+.of-scroll {
+    overflow: scroll;
+}
+.of-visible {
+    overflow: visible;
+}
+```
 https://flatuicolors.com/palette/se
