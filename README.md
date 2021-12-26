@@ -52,6 +52,7 @@
     <div class="flex col-xs-24 col-s-12">
       <p>FLEX COL 24 on XS & FLEX COL 12 on S</p>
     </div>
+  </div>
 </div>
 ```
 
