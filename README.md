@@ -20,7 +20,7 @@
 - using *.rev-wrapper* instead of *.wrapper* will reverse the wrapper
 
 **Example**
-```
+```html
 <div class="storer">
   <div class="flex wrapper">
       <div class="flex col-8">
