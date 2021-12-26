@@ -27,10 +27,10 @@
         <p>FLEX COL 8 J-START</p>
       </div>
       <div class="flex col-8">
-        FLEX COL 8 J-END
+        <p>FLEX COL 8 J-END</p>
       </div>
       <div class="flex col-8">
-        FLEX COL 8 J-CENTER
+        <p>FLEX COL 8 J-CENTER</p>
       </div>
    </div>
 </div>
@@ -69,7 +69,7 @@ Others:
 - Align Self, prefix: **s** | Alignments: start, end, center
 - Align Content, prefix: **c** | Alignments: start, end, center, between
 
-**Example:**
+**Example**
 ```
 <div class="storer">
   <div class="flex wrapper">
@@ -77,10 +77,31 @@ Others:
         <p>FLEX COL 8 J-START</p>
       </div>
       <div class="flex col-8 j-end">
-        FLEX COL 8 J-END
+        <p>FLEX COL 8 J-END</p>
       </div>
       <div class="flex col-8 j-center">
-        FLEX COL 8 J-CENTER
+        <p>FLEX COL 8 J-CENTER</p>
+      </div>
+   </div>
+</div>
+```
+
+## Ordering columns
+```
+.ord-{breakpoint_prefix}-{order_number} - usage of order classes based on breakpoints
+```
+**Example**
+```
+<div class="storer">
+  <div class="flex wrapper">
+      <div class="flex col-8 ord-s-1">
+        <p>FIRST</p>
+      </div>
+      <div class="flex col-8 ord-s-3">
+        <p>SECOND</p>
+      </div>
+      <div class="flex col-8 ord-s-2">
+        <p>THIRD</p>
       </div>
    </div>
 </div>
