@@ -1,4 +1,4 @@
-**SHUN - SIMPLE FLEX-BOX BASED FRAMEWORK**
+#**SHUN - SIMPLE FLEX-BOX BASED FRAMEWORK**
 > Shun is a framework that is designed to have basic functionality
 > based around flex-box containing few repeating css properties dumped to classes
 > to decrease the time spent working on web projects.
@@ -16,7 +16,7 @@
 - Layout is based on 24 columns
 
 
-Basic usage of Storer, Wrapper, Cols
+**Basic usage of Storer, Wrapper, Cols**
 ```
 <div class="storer">
   <div class="flex wrapper">
@@ -33,8 +33,10 @@ Basic usage of Storer, Wrapper, Cols
 </div>
 ```
 
+**Breakpoints**
 
-Justify Content usage *(Note that adding this will require display: flex, or already defined class in Shun: flex)*
+
+**Alignment of elements**
 ```
 .{prefix}-{aligment} - usage of aligment classes
 ```
