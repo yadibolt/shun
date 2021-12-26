@@ -86,7 +86,7 @@ Others:
 </div>
 ```
 
-## Ordering columns
+## Ordering
 ```
 .ord-{breakpoint_prefix}-{order_number} - usage of order classes based on breakpoints
 ```
