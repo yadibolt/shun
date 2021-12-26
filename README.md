@@ -37,13 +37,13 @@
 ```
 .col-{prefix}-{number_of_columns} - usage of columns with breakpoints
 ```
-- from 195px to 320px | XS | prefix = xs
-- from 321px to 576px | S | prefix = s
-- from 577px to 768px | M | prefix = m
-- from 769px to 992px | L | prefix = l
-- from 993px to 1200px | XL | prefix = xl
-- from 1201px to 1400px | H | prefix = h
-- from 1401px to infinite px | XH | prefix = xh
+- from **195px** to **320px** | XS | prefix = xs
+- from **321px** to **576px** | S | prefix = s
+- from **577px** to **768px** | M | prefix = m
+- from **769px** to **992px** | L | prefix = l
+- from **993px** to **1200px** | XL | prefix = xl
+- from **1201px** to **1400px** | H | prefix = h
+- from **1401px** to **infinite px** | XH | prefix = xh
 
 **Example**
 ```
