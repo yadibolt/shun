@@ -16,7 +16,7 @@
 - Layout is based on 24 columns
 
 
-**exp* = *(Note that adding this will require display: flex, or already defined class in Shun: flex)***
+__exp* = *(Note that adding this will require display: flex, or already defined class in Shun: flex)*__
 
 Basic usage of Storer, Wrapper, Cols
 ```
