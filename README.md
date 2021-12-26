@@ -1,4 +1,5 @@
 # SHUN - SIMPLE FLEX-BOX BASED FRAMEWORK
+![Shun](https://github.com/yadibolt/shun/blob/main/Shun.png)
 > Shun is a framework that is designed to have basic functionality
 > based around flex-box containing few repeating css properties dumped to classes
 > to decrease the time spent working on web projects.
