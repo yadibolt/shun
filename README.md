@@ -49,7 +49,7 @@
 - from **1401px** to **infinite px** | XH | prefix = xh
 
 **Example**
-```
+```html
 <div class="storer">
   <div class="flex wrapper">
     <div class="flex col-xs-24 col-s-12">
@@ -70,7 +70,7 @@ Others:
 - Align Content, prefix: **c** | Alignments: start, end, center, between
 
 **Example**
-```
+```html
 <div class="storer">
   <div class="flex wrapper">
       <div class="flex col-8 j-start">
@@ -91,7 +91,7 @@ Others:
 .ord-{breakpoint_prefix}-{order_number} - usage of order classes based on breakpoints
 ```
 **Example**
-```
+```html
 <div class="storer">
   <div class="flex wrapper">
       <div class="flex col-8 ord-s-1">
