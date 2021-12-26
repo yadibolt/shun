@@ -158,7 +158,7 @@ Others:
 }
 ```
 # Summary
-You are free to use this unless you remove credits or will share this under your name.
+You are free to use this unless you remove credits or share/claim this under your name.
 
 Source for colors I've used:
 https://flatuicolors.com/palette/se
