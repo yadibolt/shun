@@ -16,7 +16,7 @@
 - Layout is based on 24 columns
 
 
-### Basic usage of Storer, Wrapper, Cols
+## Basic usage of Storer, Wrapper, Cols
 - using *.rev-wrapper* instead of *.wrapper* will reverse the wrapper
 
 **Example**
@@ -36,7 +36,7 @@
 </div>
 ```
 
-### Breakpoints
+## Breakpoints
 ```
 .col-{prefix}-{number_of_columns} - usage of columns with breakpoints
 ```
@@ -59,7 +59,7 @@
 </div>
 ```
 
-### Alignment of elements
+## Alignment of elements
 ```
 .{prefix}-{aligment} - usage of alignment classes
 ```
