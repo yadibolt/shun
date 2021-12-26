@@ -1,0 +1,18 @@
+.wrapper {
+    width: 100%;
+    max-width: 100%;
+    flex-flow: row wrap;
+
+    > * {
+        flex: 1 100%;
+    }
+}
+.rev-wrapper {
+    width: 100%;
+    max-width: 100%;
+    flex-flow: row-reverse wrap;
+
+    > * {
+        flex: 1 100%;
+    }
+}
