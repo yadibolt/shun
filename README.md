@@ -8,12 +8,12 @@
 > In this case we are avoiding overcomplicated solutions when it comes to flex-box.
 
 **Shun features**
-> Simple row/column based layout
-> Reset for all HTML Elements
-> Few classes for ordering, aligning etc.
-> No padding nor margin added by default to storer( container ), wrapper( row ) and col( columns )
-> Shun has its breakpoints, currently supporting from 195px ( width ) to 1400px ( width ) and from 1400px ( width ) to infinite px
-> Layout is based on 24 columns
+- Simple row/column based layout
+- Reset for all HTML Elements
+- Few classes for ordering, aligning etc.
+- No padding nor margin added by default to storer( container ), wrapper( row ) and col( columns )
+- Shun has its breakpoints, currently supporting from 195px ( width ) to 1400px ( width ) and from 1400px ( width ) to infinite px
+- Layout is based on 24 columns
 
 **Some examples of code...**
 
