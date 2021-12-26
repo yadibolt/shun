@@ -160,5 +160,8 @@ Others:
 # Summary
 You are free to use this unless you remove credits or share/claim this under your name.
 
+Any improvements are welcome!
+
 Source for colors I've used:
+
 https://flatuicolors.com/palette/se
