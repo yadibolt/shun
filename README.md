@@ -16,8 +16,6 @@
 - Layout is based on 24 columns
 
 
-__exp* = *(Note that adding this will require display: flex, or already defined class in Shun: flex)*__
-
 Basic usage of Storer, Wrapper, Cols
 ```
 <div class="storer">
@@ -36,7 +34,7 @@ Basic usage of Storer, Wrapper, Cols
 ```
 
 
-Justify Content usage (exp*)
+Justify Content usage *(Note that adding this will require display: flex, or already defined class in Shun: flex)*
 ```
 .{prefix}-{aligment} - usage of aligment classes
 ```
