@@ -15,9 +15,8 @@
 - Shun has its breakpoints, currently supporting from 195px ( width ) to 1400px ( width ) and from 1400px ( width ) to infinite px
 - Layout is based on 24 columns
 
-**Some examples of code...**
 
-exp* = *(Note that adding this will require display: flex, or already defined class in Shun: flex)*
+**exp* = *(Note that adding this will require display: flex, or already defined class in Shun: flex)***
 
 Basic usage of Storer, Wrapper, Cols
 ```
@@ -34,6 +33,8 @@ Basic usage of Storer, Wrapper, Cols
       </div>
    </div>
 </div>
+
+
 ```
 Justify Content usage: (exp*)
 ```
