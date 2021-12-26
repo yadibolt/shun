@@ -33,9 +33,9 @@ Basic usage of Storer, Wrapper, Cols
       </div>
    </div>
 </div>
-
-
 ```
+
+
 Justify Content usage: (exp*)
 ```
 .j-{aligment}
@@ -58,6 +58,7 @@ Example:
    </div>
 </div>
 ```
+
 
 Align Items usage: (exp*)
 ```
