@@ -3,7 +3,7 @@
 > based around flex-box containing few repeating css properties dumped to classes
 > to decrease the time spent working on web projects.
 
-**Why "Shun"?**
+## Why "Shun"?
 > As stated here: https://www.dictionary.com/browse/shun, shun means *to avoid*.
 > In this case we are avoiding overcomplicated solutions when it comes to flex-box.
 
@@ -16,7 +16,7 @@
 - Layout is based on 24 columns
 
 
-**Basic usage of Storer, Wrapper, Cols**
+### Basic usage of Storer, Wrapper, Cols
 ```
 <div class="storer">
   <div class="flex wrapper">
@@ -33,7 +33,7 @@
 </div>
 ```
 
-**Breakpoints**
+### Breakpoints
 ```
 .col-{prefix}-{number_of_columns} - usage of columns with breakpoints
 ```
@@ -49,13 +49,13 @@
 ```
 <div class="storer">
   <div class="flex wrapper">
-      <div class="flex col-xs-24 col-s-12">
-        <p>FLEX COL 24 on XS & FLEX COL 12 on S</p>
-      </div>
+    <div class="flex col-xs-24 col-s-12">
+      <p>FLEX COL 24 on XS & FLEX COL 12 on S</p>
+    </div>
 </div>
 ```
 
-**Alignment of elements**
+### Alignment of elements
 ```
 .{prefix}-{aligment} - usage of alignment classes
 ```
