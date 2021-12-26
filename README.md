@@ -36,17 +36,17 @@ Basic usage of Storer, Wrapper, Cols
 ```
 
 
-Justify Content usage: (exp*)
+Justify Content usage (exp*)
 ```
-.j-{aligment}
-
-{alignment} = start, end, center, between, around
+.{prefix}-{aligment} - usage of aligment classes
 ```
 Others:
+- Justify Content, prefix **j** | Alignments: start, end, center, between, around
 - Align Items, prefix: **a** | Alignments: start, end, center, stretch
-- Align Self, prefix: **s** | start, end, center
-- Align Content, prefix: **c** | start, end, center, between
-Example:
+- Align Self, prefix: **s** | Alignments: start, end, center
+- Align Content, prefix: **c** | Alignments: start, end, center, between
+
+**Example:**
 ```
 <div class="storer">
   <div class="flex wrapper">
