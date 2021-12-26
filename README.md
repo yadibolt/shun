@@ -42,6 +42,10 @@ Justify Content usage: (exp*)
 
 {alignment} = start, end, center, between, around
 ```
+Others:
+- Align Items, prefix: **a** | Alignments: start, end, center, stretch
+- Align Self, prefix: **s** | start, end, center
+- Align Content, prefix: **c** | start, end, center, between
 Example:
 ```
 <div class="storer">
@@ -58,29 +62,5 @@ Example:
    </div>
 </div>
 ```
-
-
-Align Items usage: (exp*)
-```
-.a-{aligment}
-
-{alignment} = start, end, center, stretch
-```
-
-
-Align Self usage: (exp*)
-```
-.s-{aligment}
-
-{alignment} = start, end, center
-```
-
-Align Content usage: (exp*)
-```
-.c-{aligment}
-
-{alignment} = start, end, center, between
-```
-
 
 https://flatuicolors.com/palette/se
