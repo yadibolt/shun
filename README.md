@@ -34,11 +34,30 @@
 ```
 
 **Breakpoints**
+```
+.col-{prefix}-{number_of_columns} - usage of columns with breakpoints
+```
+- from 195px to 320px | XS | prefix = xs
+- from 321px to 576px | S | prefix = s
+- from 577px to 768px | M | prefix = m
+- from 769px to 992px | L | prefix = l
+- from 993px to 1200px | XL | prefix = xl
+- from 1201px to 1400px | H | prefix = h
+- from 1401px to infinite px | XH | prefix = xh
 
+**Example**
+```
+<div class="storer">
+  <div class="flex wrapper">
+      <div class="flex col-xs-24 col-s-12">
+        <p>FLEX COL 24 on XS & FLEX COL 12 on S</p>
+      </div>
+</div>
+```
 
 **Alignment of elements**
 ```
-.{prefix}-{aligment} - usage of aligment classes
+.{prefix}-{aligment} - usage of alignment classes
 ```
 Others:
 - Justify Content, prefix **j** | Alignments: start, end, center, between, around
