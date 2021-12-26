@@ -18,6 +18,7 @@
 
 ### Basic usage of Storer, Wrapper, Cols
 - using *.rev-wrapper* instead of *.wrapper* will reverse the wrapper
+
 **Example**
 ```
 <div class="storer">
